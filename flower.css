@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+   height: 100%;
+width: 100%;
+}
+#top{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+#topl{
+    width: 30%;
+    height: 100%;
+    background-color: burlywood;
+    background-image: url(https://images.unsplash.com/photo-1447875569765-2b3db822bec9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: cover;
+    background-size: cover;
+   
+}
+#one{
+    position: absolute;
+     top: 31%;
+    font-size: 8px;
+    font-family: Gilroy;
+    color: rgb(221, 205, 205);
+    left: 70px;
+    letter-spacing: 2px;
+}
+#heading{
+    position: absolute;
+    color: rgb(235, 221, 221);
+    font-size: 6px;
+    font-family: Gilroy;
+    letter-spacing: 4px;
+    left: 50px;
+    top: 20px;
+}
+#heading:hover{
+    cursor: pointer;
+    color: rgb(243, 14, 243);
+}
+#headicon{
+    position: absolute;
+    font-size: 15px;
+    left: -28px;
+    top: -1px;
+    color: rgb(235, 221, 221);
+}
+#headicon:hover{
+    color: violet;
+}
+#line1{
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    background-color: rgb(241, 230, 241);
+    top: 35%;
+    left: 70px;
+}
+#line1:hover{
+    background-color: rgb(132, 208, 228);
+}
+#line2{
+    position: absolute;
+    width: 3%;
+    height: 3px;
+    background-color: rgb(161, 150, 161);
+    top: 35%;
+    left: 300px;
+}
+#ero{
+    position: absolute;
+    color: rgb(243, 211, 243);
+    left: 21%;
+    top: 36%;
+}
+#menu{
+    position: absolute;
+  
+    left: 77%;
+    font-size: 20px;
+    top: 20px;
+    }
+    #menu:hover{
+        cursor: pointer;
+        color: white;
+    }
+#topc{
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+}
+#zero{
+    position: absolute;
+    right: 20px;
+    bottom: 55%;
+    font-size: 50px;
+    font-family: Gilroy;
+}
+#zero:hover{
+    cursor: pointer;
+    color: rgb(243, 124, 243);
+}
+#zero h4{
+    position: absolute;
+    font-size: 12px;
+    font-family: Gilroy;
+    color: darkcyan;
+    right: 5px;
+    letter-spacing: 5px;
+}
+#zero h3{
+    position: absolute;
+   font-size: 5px;
+   bottom: 240%;
+   font-size: 10px;
+  left: -110px;
+  letter-spacing: 7px;
+  font-family: Gilroy;
+}
+
+#uptxt{
+    font-family: Gilroy;
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    width: 20%;
+}
+#uptxt h1:hover{
+    cursor: pointer;
+    color: rgb(10, 134, 192);
+}
+#uptxt h3{
+    position: absolute;
+    font-size: 15px;
+    left: 210%;
+    letter-spacing: 5px;
+    transform: rotate(-90deg);
+    color: darkcyan;
+}
+#bottom{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    
+   
+}
+#bttmleft{
+    width: 55%;
+    height: 100%;
+    background-color: rgb(141, 168, 168);
+   }
+   #text{
+       position: absolute;
+       bottom: 30%;
+       left: 5%;
+       font-size: 30px;
+       font-family: Gilroy;
+       letter-spacing: 5px;
+       font-weight: 300;
+   }
+   #text:hover{
+       cursor: pointer;
+   color: rgb(138, 13, 117);
+   }
+   #para{
+       position: absolute;
+       font-family: Gilroy;
+       font-size: 20px;
+       width: 20%;
+       height: 80px;
+       bottom: 100px;
+       left: 45px;
+   }
+   #para h3:hover{
+       cursor: pointer;
+       color: rgb(245, 218, 218);
+   }
+   #para2{
+    position: absolute;
+    font-family: Gilroy;
+    font-size: 20px;
+    width: 20%;
+    height: 80px;
+    bottom: 100px;
+    left: 25%;
+}
+#para2 h3:hover{
+    cursor: pointer;
+    color: rgb(245, 218, 218);
+}
+i{
+    position: absolute;
+  
+   font-size: 25px;
+  
+}
+#tr{
+    bottom: 40%;
+    left: 51%;
+}
+#tr:hover{
+    cursor: pointer;
+    color: rgb(241, 231, 241);
+}
+#fb{
+    bottom: 30%;
+    left: 51%;
+}
+#fb:hover{
+    cursor: pointer;
+    color: rgb(241, 231, 241);
+}
+#msg{
+    bottom: 20%;
+    left: 51%;
+}
+#msg:hover{
+    cursor: pointer;
+    color: rgb(241, 231, 241);
+}
+#text2{
+    position: absolute;
+    left: 50%;
+    transform-origin: end;
+    transform: rotate(-90deg);
+    bottom: 10%;
+    font-family: Gilroy;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: rgb(90, 92, 88);
+}
+#bttmright{
+    width: 45%;
+    height: 100%;
+    background-color: rgb(2, 46, 48);
+    background-image: url(https://images.unsplash.com/photo-1603436262790-87a71fd759f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#circle{
+    position: absolute;
+    width: 8%;
+    height: 15%;
+   background-image: url(https://images.unsplash.com/photo-1572495754162-78a92305ea6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=379&q=80);
+   background-size: cover;
+   background-position: center; 
+   top: 10%;
+    left: 500px;
+    border-radius: 50%;
+    border: 2px solid rgb(236, 228, 228);
+}
+
+#pause{
+    position: absolute;
+   font-size: 40px;
+    right: 12%;
+    color: rgb(241, 221, 241);
+  bottom: 310px;
+}
+#pause:hover{
+    cursor: pointer;
+color: rgb(68, 4, 68);
+}
